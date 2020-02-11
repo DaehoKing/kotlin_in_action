@@ -48,5 +48,12 @@ public class Main {
         var sum = (Sum)(x, y) -> x + y;
 
 //        new Main().postphoneComputation(10, );
+
+        var a = "hi";
+        var b = "hi";
+        var c = new String("hi");
+
+        System.out.println("a == b : " + (a == b));
+        System.out.println("a == c : " + (a == c));
     }
 }
